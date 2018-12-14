@@ -1,0 +1,134 @@
+﻿body{
+    font-family: 'Roboto Slab', serif;/* Tipo da fonte */
+    font-size: 1.5rem;/* Tamanho da fonte */
+    color: #333;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #009800;/* Cor dos links da barra selecionados */
+}
+
+.nav>li>a {
+    color: #009800;/* Cor dos links da barra*/
+} 
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;/* Cor do texto */
+  background-color: #009800; /* Cor do item do dropdown */
+}
+
+
+.carousel-inner img {
+/* Seta o tamanho da imagem do carousel */
+  width: 100%;
+  height: 80%;
+}
+
+/* Permite que o carousel e outros efeitos cubram os lados*/
+#guia, #texto1, #texto2, #texto3{
+    padding: 0;
+}
+
+/*Altera a cor do texto dos grids*/
+.text-desc{
+    color:darkgray !important;
+}
+
+/*Altera os titulos dos grids*/
+.minor-heading{
+    margin: 15px 0;
+    text-transform: none;
+}
+
+
+.fundoEscuro{
+    background-color: #727272;
+    color: #fff;
+    padding: 4rem;
+}
+
+.fundoClaro{
+    background-color: #EEE9E9;
+    color: #333;
+    padding: 4rem;
+}
+
+.bigger{
+    font-size: 2rem;
+    /*Aumenta o tamanho da fonte*/
+}
+
+/*Tamanho da fonte menor*/
+.smaller{
+    font-size: 1.2rem;
+}
+
+.letraBranca{
+    color: #fff !important;
+}
+
+.letraEscura{
+    color: #333;
+}
+
+/*Cabeçalho login*/
+.card-header-login {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #28a745;!important
+  color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/*Cabeçalho cadastro*/
+.card-header-cad {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #dc3545;!important
+  color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/*Login e cadastro - margens*/
+.card-LogCad{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body-LogCad{
+    background-color: #EEE9E9;
+}
+
+/*Propriedades extras do botão*/
+.btn{
+    width: 100%;
+}
+
+.bg-infobio {
+  background-color: #ccffcc !important;
+}
+
+a.bg-infobio:hover, a.bg-infobio:focus,
+button.bg-infobio:hover,
+button.bg-infobio:focus {
+  background-color: #dae0e5 !important;
+}
+
+.margemTopoBaixo{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.controle_formulario{
+  float: right;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
